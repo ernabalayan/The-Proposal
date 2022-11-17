@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     float moveX;
     float moveY;
 
+    int alcoholContent = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,5 +34,20 @@ public class PlayerMovement : MonoBehaviour
         Vector2 inputVect = input.Get<Vector2>();
         moveX = inputVect.x;
         moveY = inputVect.y;
+    }
+
+    public void increaseAlcoholContent(int mod)
+    {
+        alcoholContent += mod;
+        Debug.Log("Beverage obtained");
+    }
+
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if(hit.gameObject.tag == "alcohol")
+        {
+            hit.gameObject.SetActive(false);
+            increaseAlcoholContent(1);
+        }
     }
 }
