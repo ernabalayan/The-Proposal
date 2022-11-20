@@ -6,48 +6,38 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     public Vector3 moveVector;
-    float velocity = 5.0f;
-    CharacterController cc;
+    float velocity = 3.0f;
+    //CharacterController cc;
     PlayerInput pi;
+    Rigidbody rb;
 
-    float moveX;
-    float moveY;
+    Vector3 moveDir;
 
     int alcoholContent = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-        cc = GetComponent<CharacterController>();
+        //cc = GetComponent<CharacterController>();
         pi = GetComponent<PlayerInput>();
+        rb = GetComponent<Rigidbody>();
+        rb.freezeRotation = true;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
-        moveVector = transform.right * moveX + transform.forward * moveY;
-        cc.Move(moveVector * velocity * Time.deltaTime);
+        moveDir = transform.forward * moveVector.z + transform.right * moveVector.x;   
+        rb.velocity = moveDir * velocity;
     }
 
     public void OnMove(InputValue input)
     {
         Vector2 inputVect = input.Get<Vector2>();
-        moveX = inputVect.x;
-        moveY = inputVect.y;
+        moveVector = new Vector3(inputVect.x, 0, inputVect.y);
     }
 
     public void increaseAlcoholContent(int mod)
     {
         alcoholContent += mod;
-        Debug.Log("Beverage obtained");
-    }
-
-    private void OnControllerColliderHit(ControllerColliderHit hit)
-    {
-        if(hit.gameObject.tag == "alcohol")
-        {
-            hit.gameObject.SetActive(false);
-            increaseAlcoholContent(1);
-        }
     }
 }

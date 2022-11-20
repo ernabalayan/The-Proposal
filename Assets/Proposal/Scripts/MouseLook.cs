@@ -9,6 +9,7 @@ public class MouseLook : MonoBehaviour
 
     float sens = 40f;
     float xRotation = 0f;
+    float yRotation = 0f;
 
     // Start is called before the first frame update
     void Start()
@@ -24,9 +25,10 @@ public class MouseLook : MonoBehaviour
         float mouseY = mouseLook.y * sens * Time.deltaTime;
 
         xRotation -= mouseY;
+        yRotation += mouseX;
         xRotation = Mathf.Clamp(xRotation, -30f, 30f);
         transform.localRotation = Quaternion.Euler(xRotation, 0.0f, 0.0f);
-        playerTransf.Rotate(Vector3.up * mouseX);
+        playerTransf.rotation = Quaternion.Euler(0, yRotation, 0);
     }
 
     public Vector2 GetLook()
