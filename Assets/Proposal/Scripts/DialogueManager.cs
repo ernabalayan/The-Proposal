@@ -9,6 +9,7 @@ public class DialogueManager : MonoBehaviour
     public TextAsset inkText;
     Story inkStory;
     public TextMeshProUGUI textyText;
+    public int alcoholCount = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,7 @@ public class DialogueManager : MonoBehaviour
             textyText.text = inkStory.Continue();
 
         }
+        inkStory.variablesState["alcoholCount"] = alcoholCount;
        
     }
 }
