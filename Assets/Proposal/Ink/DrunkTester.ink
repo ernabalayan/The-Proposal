@@ -1,15 +1,18 @@
-VAR alcoholCount = 0
 
-{ alcoholCount < 4:
-    
+->notdrunk
+
+==notdrunk==
+    you are in a simulation
     you are not really drunk
+    ->END
 
-}
-{ alcoholCount > 4:
+==kindadrunk==
+
     you are quite drunk
+    ->END
 
-}
-{alcoholCount > 8:
+
+==reallydrunk==
     you should go to the hospital
+    ->END
 
-}
