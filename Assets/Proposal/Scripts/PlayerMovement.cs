@@ -20,6 +20,8 @@ public class PlayerMovement : MonoBehaviour
     float bloodAlcoholLevel = 0.1f;
     bool BACincreased = false;
 
+    bool collidedWithBottle = false;
+
     Vector3 drift = Vector3.zero;
     Vector3 driftVect = new Vector3(0.0f, 0.0f, 0.7f);
     float driftTimer;
@@ -95,6 +97,11 @@ public class PlayerMovement : MonoBehaviour
     public int getAlcoholLevel()
     {
         return alcoholContent;
+    }
+
+    public void setAlcoholCollide(bool collision)
+    {
+        collidedWithBottle = collision;
     }
 
     public void increaseAlcoholContent(int mod)
