@@ -20,6 +20,8 @@ public class PlayerMovement : MonoBehaviour
     float bloodAlcoholLevel = 0.1f;
     bool BACincreased = false;
 
+    bool collidedWithBottle = false;
+
     Vector3 drift = Vector3.zero;
     Vector3 driftVect = new Vector3(0.0f, 0.0f, 0.7f);
     float driftTimer;
@@ -39,7 +41,6 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
         //rendPP = GetComponent<Volume>();
-        //use this to figure out changing stuff through code: https://forum.unity.com/threads/how-to-modify-post-processing-profiles-in-script.758375/
         rendPP.profile.TryGet(out ca);
         rendPP.profile.TryGet(out pp);
         ca.intensity.value = 0.0f;
@@ -91,6 +92,16 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector2 inputVect = input.Get<Vector2>();
         moveVector = new Vector3(inputVect.x, 0, inputVect.y);
+    }
+
+    public int getAlcoholLevel()
+    {
+        return alcoholContent;
+    }
+
+    public void setAlcoholCollide(bool collision)
+    {
+        collidedWithBottle = collision;
     }
 
     public void increaseAlcoholContent(int mod)
