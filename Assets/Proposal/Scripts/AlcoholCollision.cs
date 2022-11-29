@@ -15,10 +15,12 @@ public class AlcoholCollision : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Vector2.Distance(transform.position, Player.transform.position) < 2.0f)
+        /*
+        if(Vector2.Distance(transform.position, Player.transform.position) < 0.95f || Vector2.Distance(transform.position, Player.transform.position) < -0.95f)
         {
             Debug.Log("I am near the alchohol");
         }
+        */
     }
 
     private void OnCollisionEnter(Collision collision)
