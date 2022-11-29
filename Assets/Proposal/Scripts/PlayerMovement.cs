@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -12,14 +14,22 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody rb;
 
     Vector3 moveDir;
+    //Vector3 driftDir;
 
     int alcoholContent = 0;
+    float bloodAlcoholLevel = 0.1f;
+    bool BACincreased = false;
 
     Vector3 drift = Vector3.zero;
-    Vector3 driftVect = new Vector3(0.0f, 0.0f, 0.6f);
+    Vector3 driftVect = new Vector3(0.0f, 0.0f, 0.7f);
     float driftTimer;
     float changeDirection = 2.0f;
     bool setDriftVector = false;
+
+    //GameObject PPvol;
+    [SerializeField] Volume rendPP;
+    ChromaticAberration ca;
+    PaniniProjection pp;
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +38,12 @@ public class PlayerMovement : MonoBehaviour
         pi = GetComponent<PlayerInput>();
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
+        //rendPP = GetComponent<Volume>();
+        //use this to figure out changing stuff through code: https://forum.unity.com/threads/how-to-modify-post-processing-profiles-in-script.758375/
+        rendPP.profile.TryGet(out ca);
+        rendPP.profile.TryGet(out pp);
+        ca.intensity.value = 0.0f;
+        rendPP.enabled = false;
     }
 
     private void Update()
@@ -49,6 +65,18 @@ public class PlayerMovement : MonoBehaviour
                 //Debug.Log("Changing direction");
                 drift *= -1;
             }
+
+            if (alcoholContent > 2)
+            {
+                rendPP.enabled = true;
+                if(alcoholContent % 2 == 0 && !BACincreased)
+                {
+                    increaseBAC();
+                }
+
+                ca.intensity.value = bloodAlcoholLevel;
+                pp.distance.value = bloodAlcoholLevel;
+            }
         }
     }
 
@@ -68,11 +96,18 @@ public class PlayerMovement : MonoBehaviour
     public void increaseAlcoholContent(int mod)
     {
         alcoholContent += mod;
+        BACincreased = false;
     }
 
     void changeDrift()
     {
         drift = driftVect;
         setDriftVector = true;
+    }
+
+    void increaseBAC()
+    {
+        bloodAlcoholLevel += 0.1f;
+        BACincreased = true;
     }
 }
