@@ -17,6 +17,8 @@ public class PlayerMovement : MonoBehaviour
     //Vector3 driftDir;
 
     int alcoholContent = 0;
+    float bloodAlcoholLevel = 0.1f;
+    bool BACincreased = false;
 
     Vector3 drift = Vector3.zero;
     Vector3 driftVect = new Vector3(0.0f, 0.0f, 0.7f);
@@ -46,7 +48,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if(alcoholContent > 1 && alcoholContent <= 2)
+        if(alcoholContent > 1)
         {
             //Debug.Log("drifting");
             if(!setDriftVector)
@@ -63,12 +65,18 @@ public class PlayerMovement : MonoBehaviour
                 //Debug.Log("Changing direction");
                 drift *= -1;
             }
-        }
-        else if(alcoholContent > 2)
-        {
-            rendPP.enabled = true;
-            ca.intensity.value = 0.5f;
-            pp.distance.value = 0.3f;
+
+            if (alcoholContent > 2)
+            {
+                rendPP.enabled = true;
+                if(alcoholContent % 2 == 0 && !BACincreased)
+                {
+                    increaseBAC();
+                }
+
+                ca.intensity.value = bloodAlcoholLevel;
+                pp.distance.value = bloodAlcoholLevel;
+            }
         }
     }
 
@@ -88,11 +96,18 @@ public class PlayerMovement : MonoBehaviour
     public void increaseAlcoholContent(int mod)
     {
         alcoholContent += mod;
+        BACincreased = false;
     }
 
     void changeDrift()
     {
         drift = driftVect;
         setDriftVector = true;
+    }
+
+    void increaseBAC()
+    {
+        bloodAlcoholLevel += 0.1f;
+        BACincreased = true;
     }
 }

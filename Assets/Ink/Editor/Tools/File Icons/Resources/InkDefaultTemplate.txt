@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 Hello world!
 	*	Hello back!
+=======
+Hello world!
+	*	Hello back!
+>>>>>>> Programming
 	Nice to hear from you!

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "name": "InkEditor",
     "references": [
@@ -13,4 +14,21 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": []
+=======
+{
+    "name": "InkEditor",
+    "references": [
+        "Ink-Libraries"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+>>>>>>> Programming
 }

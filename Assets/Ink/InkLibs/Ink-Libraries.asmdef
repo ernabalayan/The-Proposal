@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 {
     "name": "Ink-Libraries",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": []
+=======
+{
+    "name": "Ink-Libraries",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": []
+>>>>>>> Programming
 }
