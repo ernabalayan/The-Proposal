@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using Ink.Parsed;
 using System.Diagnostics;
 
@@ -225,6 +226,8 @@ namespace Ink
 }
 
 =======
+=======
+>>>>>>> main
 ﻿using Ink.Parsed;
 using System.Diagnostics;
 
@@ -450,4 +453,7 @@ namespace Ink
 	}
 }
 
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

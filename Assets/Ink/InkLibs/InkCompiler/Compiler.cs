@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 using Ink;
@@ -209,6 +210,8 @@ namespace Ink
     }
 }
 =======
+=======
+>>>>>>> main
 ﻿using System;
 using System.Collections.Generic;
 using Ink;
@@ -418,4 +421,7 @@ namespace Ink
         List<DebugSourceRange> _debugSourceRanges = new List<DebugSourceRange> ();
     }
 }
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

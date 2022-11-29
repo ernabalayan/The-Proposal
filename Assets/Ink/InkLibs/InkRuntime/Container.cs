@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 using System;
 using System.Diagnostics;
 using System.Collections.Generic;
@@ -366,6 +367,8 @@ namespace Ink.Runtime
 }
 
 =======
+=======
+>>>>>>> main
 using System;
 using System.Diagnostics;
 using System.Collections.Generic;
@@ -732,4 +735,7 @@ namespace Ink.Runtime
 	}
 }
 
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

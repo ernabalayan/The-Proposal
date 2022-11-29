@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System.ComponentModel;
 
 namespace Ink.Runtime
@@ -89,6 +90,8 @@ namespace Ink.Runtime
 }
 
 =======
+=======
+>>>>>>> main
 ﻿using System.ComponentModel;
 
 namespace Ink.Runtime
@@ -178,4 +181,7 @@ namespace Ink.Runtime
 	}
 }
 
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

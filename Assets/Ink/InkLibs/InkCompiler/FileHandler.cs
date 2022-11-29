@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System.IO;
 
 namespace Ink
@@ -24,6 +25,8 @@ namespace Ink
     }
 }
 =======
+=======
+>>>>>>> main
 ﻿using System.IO;
 
 namespace Ink
@@ -48,4 +51,7 @@ namespace Ink
         }
     }
 }
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

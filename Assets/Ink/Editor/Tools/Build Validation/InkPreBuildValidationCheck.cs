@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using UnityEngine;
 using UnityEditor;
 using UnityEditor.Build;
@@ -65,6 +66,8 @@ IPreprocessBuild
         }
     }
 =======
+=======
+>>>>>>> main
 ﻿using UnityEngine;
 using UnityEditor;
 using UnityEditor.Build;
@@ -130,5 +133,8 @@ IPreprocessBuild
             }
         }
     }
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main
 }

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Ink.Parsed {
     public class Identifier {
         public string name;
@@ -13,6 +14,8 @@ namespace Ink.Parsed {
     }
 }
 =======
+=======
+>>>>>>> main
 namespace Ink.Parsed {
     public class Identifier {
         public string name;
@@ -26,4 +29,7 @@ namespace Ink.Parsed {
         public static Identifier Done = new Identifier { name = "DONE", debugMetadata = null };
     }
 }
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

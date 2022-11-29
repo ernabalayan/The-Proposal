@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿namespace Ink.Parsed
 {
     public enum FlowLevel
@@ -11,6 +12,8 @@
 }
 
 =======
+=======
+>>>>>>> main
 ﻿namespace Ink.Parsed
 {
     public enum FlowLevel
@@ -22,4 +25,7 @@
     }
 }
 
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

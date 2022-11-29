@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using UnityEngine;
 using UnityEditor;
 using System;
@@ -293,6 +294,8 @@ namespace Ink.UnityIntegration {
 		}
 	}
 =======
+=======
+>>>>>>> main
 ﻿using UnityEngine;
 using UnityEditor;
 using System;
@@ -586,5 +589,8 @@ namespace Ink.UnityIntegration {
 			return String.IsNullOrEmpty(extension) && InkLibrary.instance.inkLibrary.Exists(f => f.filePath == path);
 		}
 	}
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main
 }

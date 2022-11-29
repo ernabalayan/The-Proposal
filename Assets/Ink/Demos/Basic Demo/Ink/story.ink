@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 - I looked at Monsieur Fogg 
 *   ... and I could contain myself no longer.
     'What is the purpose of our journey, Monsieur?'
@@ -18,6 +19,8 @@
 *   ... but I said nothing[] and <>
 - we passed the day in silence.
 =======
+=======
+>>>>>>> main
 - I looked at Monsieur Fogg 
 *   ... and I could contain myself no longer.
     'What is the purpose of our journey, Monsieur?'
@@ -36,5 +39,8 @@
     - -     After that, <>
 *   ... but I said nothing[] and <>
 - we passed the day in silence.
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main
 - -> END

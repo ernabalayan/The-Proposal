@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿namespace Ink
 {
     /// <summary>
@@ -24,6 +25,8 @@
 }
 
 =======
+=======
+>>>>>>> main
 ﻿namespace Ink
 {
     /// <summary>
@@ -48,4 +51,7 @@
     }
 }
 
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

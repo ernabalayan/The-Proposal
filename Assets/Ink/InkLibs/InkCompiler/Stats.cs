@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 namespace Ink {
     public struct Stats {
@@ -67,6 +68,8 @@ namespace Ink {
         }
     }
 =======
+=======
+>>>>>>> main
 
 namespace Ink {
     public struct Stats {
@@ -134,5 +137,8 @@ namespace Ink {
             return stats;
         }
     }
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main
 }

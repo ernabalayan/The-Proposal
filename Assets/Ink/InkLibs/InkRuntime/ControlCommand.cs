@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System;
 
 namespace Ink.Runtime
@@ -170,6 +171,8 @@ namespace Ink.Runtime
 }
 
 =======
+=======
+>>>>>>> main
 ﻿using System;
 
 namespace Ink.Runtime
@@ -340,4 +343,7 @@ namespace Ink.Runtime
     }
 }
 
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

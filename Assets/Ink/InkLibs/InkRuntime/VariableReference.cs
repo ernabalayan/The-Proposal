@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿namespace Ink.Runtime
 {
     public class VariableReference : Runtime.Object
@@ -51,6 +52,8 @@
 }
 
 =======
+=======
+>>>>>>> main
 ﻿namespace Ink.Runtime
 {
     public class VariableReference : Runtime.Object
@@ -102,4 +105,7 @@
     }
 }
 
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

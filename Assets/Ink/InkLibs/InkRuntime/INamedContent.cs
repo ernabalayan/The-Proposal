@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿
 namespace Ink.Runtime
 {
@@ -10,6 +11,8 @@ namespace Ink.Runtime
 }
 
 =======
+=======
+>>>>>>> main
 ﻿
 namespace Ink.Runtime
 {
@@ -20,4 +23,7 @@ namespace Ink.Runtime
 	}
 }
 
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

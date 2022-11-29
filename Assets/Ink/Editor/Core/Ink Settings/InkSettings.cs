@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 using UnityEngine;
 using UnityEditor;
 using Debug = UnityEngine.Debug;
@@ -114,6 +115,8 @@ namespace Ink.UnityIntegration {
 	}	
 }
 =======
+=======
+>>>>>>> main
 using UnityEngine;
 using UnityEditor;
 using Debug = UnityEngine.Debug;
@@ -228,4 +231,7 @@ namespace Ink.UnityIntegration {
 		}
 	}	
 }
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

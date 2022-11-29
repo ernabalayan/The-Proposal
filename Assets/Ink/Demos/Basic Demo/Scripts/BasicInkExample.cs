@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System;
@@ -110,6 +111,8 @@ public class BasicInkExample : MonoBehaviour {
 	private Button buttonPrefab = null;
 }
 =======
+=======
+>>>>>>> main
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System;
@@ -220,4 +223,7 @@ public class BasicInkExample : MonoBehaviour {
 	[SerializeField]
 	private Button buttonPrefab = null;
 }
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿// Automatically creates JSON files from an ink placed within the Assets/Ink folder.
 using UnityEngine;
 using UnityEditor;
@@ -177,6 +178,8 @@ namespace Ink.UnityIntegration {
 		}
 	}
 =======
+=======
+>>>>>>> main
 ﻿// Automatically creates JSON files from an ink placed within the Assets/Ink folder.
 using UnityEngine;
 using UnityEditor;
@@ -354,5 +357,8 @@ namespace Ink.UnityIntegration {
 			}
 		}
 	}
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main
 }

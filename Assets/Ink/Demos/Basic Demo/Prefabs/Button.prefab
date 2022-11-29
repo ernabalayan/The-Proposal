@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &105558
@@ -265,6 +266,8 @@ Prefab:
   m_RootGameObject: {fileID: 105558}
   m_IsPrefabParent: 1
 =======
+=======
+>>>>>>> main
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &105558
@@ -530,4 +533,7 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 105558}
   m_IsPrefabParent: 1
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

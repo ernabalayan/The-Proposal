@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿namespace Ink.Parsed
 {
     public class Return : Parsed.Object
@@ -39,6 +40,8 @@
 }
 
 =======
+=======
+>>>>>>> main
 ﻿namespace Ink.Parsed
 {
     public class Return : Parsed.Object
@@ -78,4 +81,7 @@
     }
 }
 
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

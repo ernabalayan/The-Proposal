@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using Ink.Runtime;
 
 namespace Ink.Runtime
@@ -69,6 +70,8 @@ namespace Ink.Runtime
 
 	}
 =======
+=======
+>>>>>>> main
 ﻿using Ink.Runtime;
 
 namespace Ink.Runtime
@@ -138,5 +141,8 @@ namespace Ink.Runtime
         public static Pointer Null = new Pointer { container = null, index = -1 };
 
 	}
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main
 }

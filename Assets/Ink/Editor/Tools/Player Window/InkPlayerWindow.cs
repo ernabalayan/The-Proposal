@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using UnityEngine;
 using UnityEditorInternal;
 using UnityEditor;
@@ -2536,6 +2537,8 @@ namespace Ink.UnityIntegration {
 		}
 	}
 =======
+=======
+>>>>>>> main
 ﻿using UnityEngine;
 using UnityEditorInternal;
 using UnityEditor;
@@ -5072,5 +5075,8 @@ namespace Ink.UnityIntegration {
 			this.storyHistory = storyHistory;
 		}
 	}
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main
 }

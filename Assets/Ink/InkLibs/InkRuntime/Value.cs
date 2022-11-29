@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System.ComponentModel;
 using System.Collections.Generic;
 
@@ -405,6 +406,8 @@ namespace Ink.Runtime
 }
  
 =======
+=======
+>>>>>>> main
 ﻿using System.ComponentModel;
 using System.Collections.Generic;
 
@@ -810,4 +813,7 @@ namespace Ink.Runtime
         
 }
  
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 using Ink.Runtime;
@@ -85,6 +86,8 @@ namespace Ink.UnityIntegration.Debugging {
         }
     }
 =======
+=======
+>>>>>>> main
 ﻿using System;
 using System.Collections.Generic;
 using Ink.Runtime;
@@ -170,5 +173,8 @@ namespace Ink.UnityIntegration.Debugging {
             }
         }
     }
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main
 }

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System;
 namespace Ink.Runtime
 {
@@ -18,6 +19,8 @@ namespace Ink.Runtime
     }
 }
 =======
+=======
+>>>>>>> main
 ﻿using System;
 namespace Ink.Runtime
 {
@@ -36,4 +39,7 @@ namespace Ink.Runtime
         public Container container { get { return obj as Container; } }
     }
 }
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

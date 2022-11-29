@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿namespace Ink.Runtime
 {
     public class Glue : Runtime.Object
@@ -13,6 +14,8 @@
 }
 
 =======
+=======
+>>>>>>> main
 ﻿namespace Ink.Runtime
 {
     public class Glue : Runtime.Object
@@ -26,4 +29,7 @@
     }
 }
 
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

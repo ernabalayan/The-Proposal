@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using Ink.Parsed;
 using System.Collections.Generic;
 using System.IO;
@@ -76,6 +77,8 @@ namespace Ink
 }
 
 =======
+=======
+>>>>>>> main
 ﻿using Ink.Parsed;
 using System.Collections.Generic;
 using System.IO;
@@ -152,4 +155,7 @@ namespace Ink
     }
 }
 
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 namespace Ink
 {
@@ -129,6 +130,8 @@ namespace Ink
 }
 
 =======
+=======
+>>>>>>> main
 
 namespace Ink
 {
@@ -258,4 +261,7 @@ namespace Ink
     }
 }
 
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

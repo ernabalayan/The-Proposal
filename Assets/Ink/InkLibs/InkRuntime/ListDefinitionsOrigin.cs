@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System.Collections.Generic;
 
 namespace Ink.Runtime
@@ -53,6 +54,8 @@ namespace Ink.Runtime
     }
 }
 =======
+=======
+>>>>>>> main
 ﻿using System.Collections.Generic;
 
 namespace Ink.Runtime
@@ -106,4 +109,7 @@ namespace Ink.Runtime
 		Dictionary<string, ListValue> _allUnambiguousListValueCache;
     }
 }
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

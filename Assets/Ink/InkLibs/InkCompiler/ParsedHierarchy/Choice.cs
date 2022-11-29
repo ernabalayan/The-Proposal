@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System.Text;
 
 namespace Ink.Parsed
@@ -290,6 +291,8 @@ namespace Ink.Parsed
 }
 
 =======
+=======
+>>>>>>> main
 ﻿using System.Text;
 
 namespace Ink.Parsed
@@ -580,4 +583,7 @@ namespace Ink.Parsed
 
 }
 
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

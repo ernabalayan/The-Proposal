@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using Ink;
 using System.IO;
 
@@ -22,6 +23,8 @@ public class UnityInkFileHandler : IFileHandler {
         return File.ReadAllText(fullFilename);
     }
 =======
+=======
+>>>>>>> main
 ﻿using Ink;
 using System.IO;
 
@@ -44,5 +47,8 @@ public class UnityInkFileHandler : IFileHandler {
     {
         return File.ReadAllText(fullFilename);
     }
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main
 }

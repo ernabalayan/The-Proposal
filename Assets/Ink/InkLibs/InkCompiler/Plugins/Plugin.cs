@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System;
 
 namespace Ink
@@ -19,6 +20,8 @@ namespace Ink
 }
 
 =======
+=======
+>>>>>>> main
 ﻿using System;
 
 namespace Ink
@@ -38,4 +41,7 @@ namespace Ink
     }
 }
 
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿namespace Ink
 {
     public class CommandLineInput
@@ -11,6 +12,8 @@
         public object userImmediateModeStatement;
     }
 =======
+=======
+>>>>>>> main
 ﻿namespace Ink
 {
     public class CommandLineInput
@@ -22,5 +25,8 @@
         public string debugPathLookup;
         public object userImmediateModeStatement;
     }
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main
 }

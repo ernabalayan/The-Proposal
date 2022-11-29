@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 using UnityEngine;
 using UnityEditor;
 using System.IO;
@@ -370,6 +371,8 @@ namespace Ink.UnityIntegration {
 		} 
 	}
 =======
+=======
+>>>>>>> main
 using UnityEngine;
 using UnityEditor;
 using System.IO;
@@ -740,5 +743,8 @@ namespace Ink.UnityIntegration {
 			return string.Format ("[InkFile: filePath={0}]", filePath);
 		} 
 	}
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main
 }

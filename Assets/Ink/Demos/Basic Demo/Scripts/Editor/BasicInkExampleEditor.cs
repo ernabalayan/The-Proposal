@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -28,6 +29,8 @@ public class BasicInkExampleEditor : Editor {
 	}
 }
 =======
+=======
+>>>>>>> main
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -56,4 +59,7 @@ public class BasicInkExampleEditor : Editor {
 		InkPlayerWindow.DrawStoryPropertyField(story, new GUIContent("Story"));
 	}
 }
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

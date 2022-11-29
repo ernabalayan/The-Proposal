@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 using System.Text.RegularExpressions;
 using Debug = UnityEngine.Debug;
 
@@ -57,6 +58,8 @@ namespace Ink.UnityIntegration
 		private static Regex _errorRegex = new Regex(@"(?<errorType>ERROR|WARNING|TODO):(?:\s(?:'(?<filename>[^']*)'\s)?line (?<lineNo>\d+):)?(?<message>.*)");
 	}
 =======
+=======
+>>>>>>> main
 using System.Text.RegularExpressions;
 using Debug = UnityEngine.Debug;
 
@@ -114,5 +117,8 @@ namespace Ink.UnityIntegration
 		}
 		private static Regex _errorRegex = new Regex(@"(?<errorType>ERROR|WARNING|TODO):(?:\s(?:'(?<filename>[^']*)'\s)?line (?<lineNo>\d+):)?(?<message>.*)");
 	}
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main
 }

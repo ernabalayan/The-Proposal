@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 using System.Collections.Generic;
 using System.Linq;
 
@@ -54,6 +55,8 @@ namespace Ink
     }    
 }
 =======
+=======
+>>>>>>> main
 using System.Collections.Generic;
 using System.Linq;
 
@@ -108,4 +111,7 @@ namespace Ink
         CharacterSet _correspondingCharSet = new CharacterSet();
     }    
 }
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

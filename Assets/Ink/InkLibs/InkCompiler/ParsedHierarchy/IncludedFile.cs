@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿
 namespace Ink.Parsed
 {
@@ -20,6 +21,8 @@ namespace Ink.Parsed
 }
 
 =======
+=======
+>>>>>>> main
 ﻿
 namespace Ink.Parsed
 {
@@ -40,4 +43,7 @@ namespace Ink.Parsed
     }
 }
 
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

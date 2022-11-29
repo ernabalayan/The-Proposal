@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 using UnityEngine;
 using UnityEditor;
 
@@ -18,6 +19,8 @@ namespace Ink.UnityIntegration {
 		public virtual void OnInspectorGUI() {}
 	}
 =======
+=======
+>>>>>>> main
 using UnityEngine;
 using UnityEditor;
 
@@ -36,5 +39,8 @@ namespace Ink.UnityIntegration {
 		public virtual void OnHeaderGUI () {}
 		public virtual void OnInspectorGUI() {}
 	}
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main
 }

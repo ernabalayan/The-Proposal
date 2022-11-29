@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using UnityEngine;
 using UnityEditor;
 using System.Collections.Generic;
@@ -102,6 +103,8 @@ namespace Ink.UnityIntegration {
 		}
 	}
 =======
+=======
+>>>>>>> main
 ﻿using UnityEngine;
 using UnityEditor;
 using System.Collections.Generic;
@@ -204,5 +207,8 @@ namespace Ink.UnityIntegration {
             }
 		}
 	}
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main
 }

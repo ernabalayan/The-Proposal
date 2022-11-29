@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System.Collections.Generic;
 
 namespace Ink.Runtime
@@ -66,6 +67,8 @@ namespace Ink.Runtime
     }
 }
 =======
+=======
+>>>>>>> main
 ﻿using System.Collections.Generic;
 
 namespace Ink.Runtime
@@ -132,4 +135,7 @@ namespace Ink.Runtime
         Dictionary<Container, int> _turnIndices = new Dictionary<Container, int>();
     }
 }
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main

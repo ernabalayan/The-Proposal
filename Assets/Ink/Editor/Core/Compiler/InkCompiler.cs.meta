@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 fileFormatVersion: 2
 guid: 430cb8f71c23c438cb8b0ce85cc80fa6
 timeCreated: 1459463931
@@ -12,6 +13,8 @@ MonoImporter:
   assetBundleName: 
   assetBundleVariant: 
 =======
+=======
+>>>>>>> main
 fileFormatVersion: 2
 guid: 430cb8f71c23c438cb8b0ce85cc80fa6
 timeCreated: 1459463931
@@ -24,4 +27,7 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+<<<<<<< HEAD
 >>>>>>> Programming
+=======
+>>>>>>> main
