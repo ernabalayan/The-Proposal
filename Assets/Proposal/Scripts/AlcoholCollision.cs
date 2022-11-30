@@ -4,41 +4,23 @@ using UnityEngine;
 
 public class AlcoholCollision : MonoBehaviour
 {
-    //GameObject Player;
+    [SerializeField] int alcoholAmount = 1;
+    Renderer rend;
 
     // Start is called before the first frame update
     void Start()
     {
-        //Player = GameObject.Find("Player");
+        rend = GetComponent<Renderer>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        /*
-        if(Vector2.Distance(transform.position, Player.transform.position) < 0.95f || Vector2.Distance(transform.position, Player.transform.position) < -0.95f)
-        {
-            Debug.Log("I am near the alchohol");
-        }
-        */
-    }
-
-    /*
-    private void OnCollisionEnter(Collision collision)
-    {
-        if(collision.gameObject.tag == "Player")
-        {
-            Debug.Log("beverage obtained");
-            collision.gameObject.GetComponent<PlayerMovement>().increaseAlcoholContent(1);
-            this.gameObject.SetActive(false);
-        }
-    }
-    */
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Player")
         {
+            Debug.Log("Player is colliding");
+            rend.material.color = Color.red;
             other.gameObject.GetComponent<PlayerMovement>().setAlcoholCollide(true);
+            other.gameObject.GetComponent<PlayerMovement>().alcoholObjectColl(this.gameObject, alcoholAmount);
         }
     }
 
@@ -46,7 +28,9 @@ public class AlcoholCollision : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
+            rend.material.color = Color.white;
             other.gameObject.GetComponent<PlayerMovement>().setAlcoholCollide(false);
+            other.gameObject.GetComponent<PlayerMovement>().alcoholObjectColl(null, 0);
         }
     }
 }
