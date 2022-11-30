@@ -7,6 +7,7 @@ using TMPro;
 public class TaskManager : MonoBehaviour
 {
     [SerializeField] TMP_Text taskText;
+    bool keyfound = false;
 
     enum playerTasks { findRing, findFlowers, findKey, putOnClothes }
 
