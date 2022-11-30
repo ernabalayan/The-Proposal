@@ -144,6 +144,12 @@ public class PlayerMovement : MonoBehaviour
 
     void deactivateObject(GameObject objToDeactivate)
     {
+        if (collObject.GetComponent<TaskCollider>())
+        {
+            collObject.GetComponent<TaskCollider>().FinishedTask();
+        }
+
         objToDeactivate.SetActive(false);
+        collidedWithBottle = false;
     }
 }
