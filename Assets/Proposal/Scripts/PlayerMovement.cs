@@ -21,6 +21,8 @@ public class PlayerMovement : MonoBehaviour
     bool BACincreased = false;
 
     bool collidedWithBottle = false;
+    GameObject alcoholObject;
+    int objectContent;
 
     Vector3 drift = Vector3.zero;
     Vector3 driftVect = new Vector3(0.0f, 0.0f, 0.7f);
@@ -94,6 +96,17 @@ public class PlayerMovement : MonoBehaviour
         moveVector = new Vector3(inputVect.x, 0, inputVect.y);
     }
 
+    public void OnPickUp()
+    {
+        if(collidedWithBottle)
+        {
+            increaseAlcoholContent(objectContent);
+            deactivateObject(alcoholObject);
+            alcoholObject = null;
+            objectContent = 0;
+        }
+    }
+
     public int getAlcoholLevel()
     {
         return alcoholContent;
@@ -101,6 +114,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void setAlcoholCollide(bool collision)
     {
+        Debug.Log("in the setter");
         collidedWithBottle = collision;
     }
 
@@ -120,5 +134,16 @@ public class PlayerMovement : MonoBehaviour
     {
         bloodAlcoholLevel += 0.1f;
         BACincreased = true;
+    }
+
+    public void alcoholObjectColl(GameObject alcoholObj, int amount)
+    {
+        alcoholObject = alcoholObj;
+        objectContent = amount;
+    }
+
+    void deactivateObject(GameObject objToDeactivate)
+    {
+        objToDeactivate.SetActive(false);
     }
 }
