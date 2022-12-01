@@ -15,15 +15,9 @@
                     "initialStateCheck": true
                 },
                 {
-<<<<<<< Updated upstream
                     "name": "PickUp",
                     "type": "Button",
                     "id": "14eb0cbc-54c2-43cc-a3a2-a90e90f808b7",
-=======
-                    "name": "Space",
-                    "type": "Button",
-                    "id": "cf3c3048-0b61-4fe8-ae23-628aabe38271",
->>>>>>> Stashed changes
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -88,21 +82,12 @@
                 },
                 {
                     "name": "",
-<<<<<<< Updated upstream
                     "id": "a2bed252-532b-4fc2-a19b-606738fd6820",
                     "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "PickUp",
-=======
-                    "id": "c340d06d-83f5-4fd7-9262-ea27ac70465d",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Space",
->>>>>>> Stashed changes
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -7,7 +7,6 @@ TagManager:
   - CinemachineTarget
   - alcohol
   - beer
-  - dialogue
   layers:
   - Default
   - TransparentFX
