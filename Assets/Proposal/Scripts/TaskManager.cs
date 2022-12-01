@@ -7,13 +7,17 @@ using TMPro;
 public class TaskManager : MonoBehaviour
 {
     [SerializeField] TMP_Text taskText;
+    [SerializeField] TMP_Text timerText;
     bool keyfound = false;
     bool ringFound = false;
 
     [SerializeField] GameObject ring;
     [SerializeField] GameObject key;
 
-    enum playerTasks { findRing, findFlowers, findKey, putOnClothes }
+    float timer = 0f;
+    float endBreakPoint = 30.0f;
+
+    enum playerTasks { findRing, findFlowers, findKey }
 
     playerTasks curtask = playerTasks.findKey;
 
@@ -39,9 +43,14 @@ public class TaskManager : MonoBehaviour
             case playerTasks.findFlowers:
                 taskText.text = "Current task: Find Flowers";
                 break;
-            case playerTasks.putOnClothes:
-                taskText.text = "Current task: Put on Nice Clothes";
-                break;
+        }
+
+        timer += Time.deltaTime;
+        timerText.text = "Time Elapsed : " + timer;
+
+        if(timer > endBreakPoint && !ringFound && !keyfound)
+        {
+            taskText.text = "You failed to complete the tasks.";
         }
     }
 
@@ -56,4 +65,6 @@ public class TaskManager : MonoBehaviour
         ringFound = true;
         curtask = playerTasks.findFlowers;
     }
+
+    
 }
