@@ -11,6 +11,7 @@ public class DialogueManager : MonoBehaviour
     Story inkStory;
     public TextMeshProUGUI textyText;
     public int alcoholCount = 0;
+    public PlayerInput pi;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,26 +21,13 @@ public class DialogueManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Alcohol Count"+alcoholCount);
-
-        if(alcoholCount < 4)
-        {
-            inkStory.ChoosePathString("notdrunk");
-            textyText.text = inkStory.Continue();
-        }
-        if (alcoholCount >= 4 && alcoholCount < 8)
-        {
-            inkStory.ChoosePathString("kindadrunk");
-            textyText.text = inkStory.Continue();
-        }
-        if (alcoholCount >= 8)
-        {
-            inkStory.ChoosePathString("reallydrunk");
-            textyText.text = inkStory.Continue();
-        }
 
 
 
 
+    }
+    public void OnDialogue()
+    {
+        textyText.text = inkStory.Continue();
     }
 }
