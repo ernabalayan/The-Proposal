@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/UnityTemplate Stuff/Scenes/Playground.unity
-    guid: e9017d5f96b9f09489b4b37e1d6eb914
+    path: Assets/Proposal/Scenes/Erna.unity
+    guid: 61bce692107844820bf127607a9d7283
+  - enabled: 1
+    path: Assets/Proposal/Scenes/Apartment.unity
+    guid: ecdaff4672142084496012b11c12a345
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7,
       type: 2}

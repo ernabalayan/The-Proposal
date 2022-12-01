@@ -21,7 +21,7 @@ public class DialogueManager : MonoBehaviour
     void Update()
     {
         Debug.Log("Alcohol Count"+alcoholCount);
-
+        /*
         if(alcoholCount < 4)
         {
             inkStory.ChoosePathString("notdrunk");
@@ -36,8 +36,9 @@ public class DialogueManager : MonoBehaviour
         {
             inkStory.ChoosePathString("reallydrunk");
             textyText.text = inkStory.Continue();
+            Debug.Log(inkStory.currentText);
         }
-
+        */
 
 
 
