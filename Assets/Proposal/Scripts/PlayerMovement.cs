@@ -86,17 +86,8 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         //this might help with some movement stuff: https://www.youtube.com/watch?v=f473C43s8nE
-        moveDir = transform.forward * moveVector.z + transform.right * moveVector.x;  
-       // rb.velocity = (moveDir * velocity) + drift;
-
-        if(alcoholContent > 5)
-        {
-            rb.velocity = (moveDir * velocity * -1) + drift;
-        }
-        else
-        {
-            rb.velocity = (moveDir * velocity) + drift;
-        }
+        moveDir = transform.forward * moveVector.z + transform.right * moveVector.x;   
+        rb.velocity = (moveDir * velocity) + drift;
     }
 
     public void OnMove(InputValue input)
