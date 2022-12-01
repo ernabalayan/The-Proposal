@@ -109,7 +109,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -142,7 +142,6 @@ GameObject:
   m_Component:
   - component: {fileID: 973974115425600358}
   - component: {fileID: 973974115425600356}
-  - component: {fileID: 973974115425600357}
   m_Layer: 0
   m_Name: Body
   m_TagString: Player
@@ -173,20 +172,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 973974115425600361}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!136 &973974115425600357
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 973974115425600361}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.27662808
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &973974116520187035
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,6 +184,7 @@ GameObject:
   - component: {fileID: 973974116520187033}
   - component: {fileID: 973974116520187032}
   - component: {fileID: 973974116520187027}
+  - component: {fileID: 228588145}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -236,6 +222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveVector: {x: 0, y: 0, z: 0}
+  rendPP: {fileID: 0}
 --- !u!114 &973974116520187032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -283,3 +270,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &228588145
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973974116520187035}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5619178
+  m_Height: 1.3920386
+  m_Direction: 1
+  m_Center: {x: 0.042910337, y: -0.023939013, z: 0.019007444}

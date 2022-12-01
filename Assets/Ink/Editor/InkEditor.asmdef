@@ -1,0 +1,40 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+{
+    "name": "InkEditor",
+    "references": [
+        "Ink-Libraries"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+=======
+=======
+>>>>>>> main
+{
+    "name": "InkEditor",
+    "references": [
+        "Ink-Libraries"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+<<<<<<< HEAD
+>>>>>>> Programming
+=======
+>>>>>>> main
+}
