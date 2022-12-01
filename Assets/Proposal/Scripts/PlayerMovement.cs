@@ -16,6 +16,10 @@ public class PlayerMovement : MonoBehaviour
     Vector3 moveDir;
     //Vector3 driftDir;
 
+    bool isJumping;
+    float jumpVelo = 50.0f;
+    float gravScale = 10;
+
     int alcoholContent = 0;
     float bloodAlcoholLevel = 0.1f;
     bool BACincreased = false;
@@ -85,15 +89,37 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        rb.AddForce(Physics.gravity * (gravScale - 1) * rb.mass);
+
         //this might help with some movement stuff: https://www.youtube.com/watch?v=f473C43s8nE
-        moveDir = transform.forward * moveVector.z + transform.right * moveVector.x;   
-        rb.velocity = (moveDir * velocity) + drift;
+        moveDir = transform.forward * moveVector.z + transform.right * moveVector.x;  
+       // rb.velocity = (moveDir * velocity) + drift;
+
+        if(alcoholContent > 5)
+        {
+            rb.velocity = (moveDir * velocity * -1) + drift;
+        }
+        else
+        {
+            rb.velocity = (moveDir * velocity) + drift;
+        }
+
+        if(isJumping)
+        {
+            rb.AddForce(Vector3.up * jumpVelo, ForceMode.Impulse);
+            isJumping = false;
+        }
     }
 
     public void OnMove(InputValue input)
     {
         Vector2 inputVect = input.Get<Vector2>();
         moveVector = new Vector3(inputVect.x, 0, inputVect.y);
+    }
+
+    public void OnJump()
+    {
+        isJumping = true;
     }
 
     public void OnPickUp()

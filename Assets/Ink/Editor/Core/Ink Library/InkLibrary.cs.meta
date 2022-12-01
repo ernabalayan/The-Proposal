@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 fileFormatVersion: 2
 guid: dc234ab28a32840f5adfb84a075bc023
 timeCreated: 1485516445
@@ -12,22 +10,3 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-=======
-=======
->>>>>>> main
-fileFormatVersion: 2
-guid: dc234ab28a32840f5adfb84a075bc023
-timeCreated: 1485516445
-licenseType: Store
-MonoImporter:
-  serializedVersion: 2
-  defaultReferences: []
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-<<<<<<< HEAD
->>>>>>> Programming
-=======
->>>>>>> main

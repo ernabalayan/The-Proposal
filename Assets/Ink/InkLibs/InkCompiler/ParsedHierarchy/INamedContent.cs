@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 ﻿
 namespace Ink.Parsed
 {
@@ -9,19 +7,3 @@ namespace Ink.Parsed
     }
 }
 
-=======
-=======
->>>>>>> main
-﻿
-namespace Ink.Parsed
-{
-    public interface INamedContent
-    {
-        string name { get; }
-    }
-}
-
-<<<<<<< HEAD
->>>>>>> Programming
-=======
->>>>>>> main
