@@ -174,6 +174,10 @@ public class PlayerMovement : MonoBehaviour
         {
             collObject.GetComponent<TaskCollider>().FinishedTask();
         }
+        else if(collObject.GetComponent<FlowerCollisions>())
+        {
+            collObject.GetComponent<FlowerCollisions>().FinishedTask();
+        }
 
         objToDeactivate.SetActive(false);
         collidedWithBottle = false;
