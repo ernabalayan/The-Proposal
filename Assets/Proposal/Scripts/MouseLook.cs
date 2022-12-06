@@ -14,7 +14,7 @@ public class MouseLook : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        yRotation = playerTransf.eulerAngles.y;
     }
 
     // Update is called once per frame
@@ -26,7 +26,7 @@ public class MouseLook : MonoBehaviour
 
         xRotation -= mouseY;
         yRotation += mouseX;
-        xRotation = Mathf.Clamp(xRotation, -30f, 30f);
+        xRotation = Mathf.Clamp(xRotation, -30f, 50f);
         transform.localRotation = Quaternion.Euler(xRotation, 0.0f, 0.0f);
         playerTransf.rotation = Quaternion.Euler(0, yRotation, 0);
     }

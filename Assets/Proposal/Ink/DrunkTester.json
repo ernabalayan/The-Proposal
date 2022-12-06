@@ -1,0 +1,1 @@
+﻿{"inkVersion":20,"root":[[{"->":"notdrunk"},["done",{"#f":5,"#n":"g-0"}],null],"done",{"notdrunk":["^you are in a simulation","\n","^you are not really drunk","\n","end",{"#f":1}],"kindadrunk":["^you are quite drunk","\n","end",{"#f":1}],"reallydrunk":["^you should go to the hospital","\n","end",{"#f":1}],"#f":1}],"listDefs":{}}
