@@ -15973,7 +15973,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bathroomDoor: {fileID: 905292740}
-  locked: 1
 --- !u!1001 &1310631111
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24338,6 +24337,7 @@ MonoBehaviour:
   timerText: {fileID: 0}
   ring: {fileID: 663017641}
   key: {fileID: 1301909524}
+  flower: {fileID: 0}
 --- !u!4 &2034793235
 Transform:
   m_ObjectHideFlags: 0
@@ -25471,6 +25471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doorText: {fileID: 534037693}
+  locked: 1
 --- !u!65 &2140760717
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25497,16 +25498,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 505453023}
     m_Modifications:
-    - target: {fileID: 5598352355721144774, guid: 9c7c8642bb12e465fb181634c4a70a15,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7174982935980892587, guid: 9c7c8642bb12e465fb181634c4a70a15,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8188358905432160033, guid: 9c7c8642bb12e465fb181634c4a70a15,
         type: 3}
       propertyPath: m_RootOrder
