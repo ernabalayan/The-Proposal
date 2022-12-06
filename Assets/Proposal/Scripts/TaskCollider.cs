@@ -6,7 +6,7 @@ public class TaskCollider : MonoBehaviour
 {
     [SerializeField] GameObject Tasks;
 
-    enum ObjTask {key, ring }
+    enum ObjTask {key, flower, ring }
     [SerializeField] ObjTask relatedTask;
 
     Renderer rend;
@@ -49,6 +49,9 @@ public class TaskCollider : MonoBehaviour
 
             case ObjTask.ring:
                 Tasks.GetComponent<TaskManager>().RingWasFound();
+                break;
+
+            case ObjTask.flower:
                 break;
         }
     }

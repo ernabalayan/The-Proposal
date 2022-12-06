@@ -13,12 +13,11 @@ public class TaskManager : MonoBehaviour
 
     [SerializeField] GameObject ring;
     [SerializeField] GameObject key;
-    [SerializeField] GameObject flower;
 
     float timer = 0f;
     float endBreakPoint = 30.0f;
 
-    enum playerTasks { findRing, findFlowers, findKey, endTask }
+    enum playerTasks { findRing, findFlowers, findKey }
 
     playerTasks curtask = playerTasks.findKey;
 
@@ -36,7 +35,6 @@ public class TaskManager : MonoBehaviour
             case playerTasks.findKey:
                 taskText.text = "Current task: Find Key";
                 ring.GetComponent<CapsuleCollider>().enabled = false;
-                flower.GetComponent<BoxCollider>().enabled = false;
                 break;
             case playerTasks.findRing:
                 taskText.text = "Current task: Find Ring";
@@ -44,10 +42,6 @@ public class TaskManager : MonoBehaviour
                 break;
             case playerTasks.findFlowers:
                 taskText.text = "Current task: Find Flowers";
-                flower.GetComponent<BoxCollider>().enabled = true;
-                break;
-            case playerTasks.endTask:
-                taskText.text = "All tasks complete!";
                 break;
         }
 
@@ -70,13 +64,9 @@ public class TaskManager : MonoBehaviour
 
     public void RingWasFound()
     {
-        Debug.Log("rind found");
         ringFound = true;
         curtask = playerTasks.findFlowers;
     }
 
-    public void FlowerWasFound()
-    {
-        curtask = playerTasks.endTask;
-    }
+    
 }

@@ -13,10 +13,6 @@ public class PlayerMovement : MonoBehaviour
     PlayerInput pi;
     Rigidbody rb;
 
-    bool sprinting = false;
-    const float sprintVelo = 6.0f;
-    const float walkVelo = 3.0f;
-
     Vector3 moveDir;
     //Vector3 driftDir;
 
@@ -89,15 +85,6 @@ public class PlayerMovement : MonoBehaviour
                 pp.distance.value = bloodAlcoholLevel;
             }
         }
-
-        if(sprinting)
-        {
-            velocity = sprintVelo;
-        }
-        else
-        {
-            velocity = walkVelo;
-        }
     }
 
     private void FixedUpdate()
@@ -146,14 +133,6 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    //this only causes the player to sprint when the button is pressed, not held
-    //value is also not set back to false, perpetual sprint
-    public void OnSprint()
-    {
-        sprinting = true;
-    }
-
-    //returns the amount of alcohol the player has ingested
     public int getAlcoholLevel()
     {
         return alcoholContent;
@@ -194,10 +173,6 @@ public class PlayerMovement : MonoBehaviour
         if (collObject.GetComponent<TaskCollider>())
         {
             collObject.GetComponent<TaskCollider>().FinishedTask();
-        }
-        else if(collObject.GetComponent<FlowerCollisions>())
-        {
-            collObject.GetComponent<FlowerCollisions>().FinishedTask();
         }
 
         objToDeactivate.SetActive(false);

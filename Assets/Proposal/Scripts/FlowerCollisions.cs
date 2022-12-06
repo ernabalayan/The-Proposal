@@ -18,7 +18,6 @@ public class FlowerCollisions : MonoBehaviour
     void Start()
     {
         rend = GetComponent<Renderer>();
-        flowerTxt.text = "";
     }
 
     private void OnTriggerEnter(Collider other)
@@ -65,13 +64,5 @@ public class FlowerCollisions : MonoBehaviour
     {
         yield return new WaitForSeconds(destroyTimer);
         this.gameObject.SetActive(false);
-    }
-
-    public void FinishedTask()
-    {
-        if (isCorrFlower == flowerType.correctFlower)
-        {
-            TaskManager.GetComponent<TaskManager>().FlowerWasFound();
-        }
     }
 }
