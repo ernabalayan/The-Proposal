@@ -7,18 +7,19 @@ using TMPro;
 public class TaskManager : MonoBehaviour
 {
     [SerializeField] TMP_Text taskText;
-    [SerializeField] TMP_Text timerText;
+   // [SerializeField] TMP_Text timerText;
     bool keyfound = false;
     bool ringFound = false;
 
     [SerializeField] GameObject ring;
     [SerializeField] GameObject key;
     [SerializeField] GameObject flower;
+    [SerializeField] GameObject girlfriend;
 
     float timer = 0f;
     float endBreakPoint = 30.0f;
 
-    enum playerTasks { findRing, findFlowers, findKey, endTask }
+    enum playerTasks { findRing, findFlowers, findKey, findGF, endTask }
 
     playerTasks curtask = playerTasks.findKey;
 
@@ -37,6 +38,7 @@ public class TaskManager : MonoBehaviour
                 taskText.text = "Current task: Find Key";
                 ring.GetComponent<CapsuleCollider>().enabled = false;
                 flower.GetComponent<BoxCollider>().enabled = false;
+                girlfriend.GetComponent<CapsuleCollider>().enabled = false;
                 break;
             case playerTasks.findRing:
                 taskText.text = "Current task: Find Ring";
@@ -45,6 +47,10 @@ public class TaskManager : MonoBehaviour
             case playerTasks.findFlowers:
                 taskText.text = "Current task: Find Flowers";
                 flower.GetComponent<BoxCollider>().enabled = true;
+                break;
+            case playerTasks.findGF:
+                taskText.text = "Current task: Find your Girlfriend";
+                girlfriend.GetComponent<CapsuleCollider>().enabled = true;
                 break;
             case playerTasks.endTask:
                 taskText.text = "All tasks complete!";
@@ -71,12 +77,17 @@ public class TaskManager : MonoBehaviour
 
     public void RingWasFound()
     {
-        Debug.Log("rind found");
+        Debug.Log("ring found");
         ringFound = true;
         curtask = playerTasks.findFlowers;
     }
 
     public void FlowerWasFound()
+    {
+        curtask = playerTasks.findGF;
+    }
+
+    public void GFWasFound()
     {
         curtask = playerTasks.endTask;
     }
