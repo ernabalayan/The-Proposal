@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static UnityEngine.InputSystem.InputAction;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
@@ -14,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody rb;
 
     bool sprinting = false;
-    const float sprintVelo = 6.0f;
+    const float sprintVelo = 7.0f;
     const float walkVelo = 3.0f;
 
     Vector3 moveDir;
@@ -150,7 +151,7 @@ public class PlayerMovement : MonoBehaviour
     //value is also not set back to false, perpetual sprint
     public void OnSprint()
     {
-        sprinting = true;
+        sprinting = !sprinting;
     }
 
     //returns the amount of alcohol the player has ingested
