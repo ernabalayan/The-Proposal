@@ -64,6 +64,7 @@ public class TaskManager : MonoBehaviour
 
     public void KeyWasFound()
     {
+        Debug.Log("key found");
         keyfound = true;
         curtask = playerTasks.findRing;
     }
