@@ -45,6 +45,7 @@ public class TaskManager : MonoBehaviour
                 break;
         }
 
+        /*
         timer += Time.deltaTime;
         timerText.text = "Time Elapsed : " + timer;
 
@@ -52,6 +53,7 @@ public class TaskManager : MonoBehaviour
         {
             taskText.text = "You failed to complete the tasks.";
         }
+        */
     }
 
     public void KeyWasFound()
