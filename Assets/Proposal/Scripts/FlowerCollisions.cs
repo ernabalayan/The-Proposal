@@ -12,6 +12,9 @@ public class FlowerCollisions : MonoBehaviour
     [SerializeField] GameObject TaskManager;
     [SerializeField] TMP_Text flowerTxt;
 
+    [SerializeField] List<string> WrongFlowerTxt;
+    int selectedText;
+
     Renderer rend;
 
     // Start is called before the first frame update
@@ -19,6 +22,7 @@ public class FlowerCollisions : MonoBehaviour
     {
         rend = GetComponent<Renderer>();
         flowerTxt.text = "";
+        selectedText = Random.Range(0, WrongFlowerTxt.Count);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -26,6 +30,8 @@ public class FlowerCollisions : MonoBehaviour
         if(other.gameObject.tag == "Player")
         {
             rend.material.color = Color.green;
+            flowerTxt.transform.rotation = Quaternion.LookRotation(-((new Vector3(other.gameObject.transform.position.x, 
+                other.gameObject.transform.position.y + 1.5f, other.gameObject.transform.position.z)) - flowerTxt.transform.position));
 
             switch (isCorrFlower)
             {
@@ -35,7 +41,7 @@ public class FlowerCollisions : MonoBehaviour
                     other.GetComponent<PlayerMovement>().alcoholObjectColl(this.gameObject);
                     break;
                 case flowerType.wrongFlower:
-                    flowerTxt.text = "hmm...not quite";
+                    flowerTxt.text = WrongFlowerTxt[selectedText];
                     break;
             }
         }
