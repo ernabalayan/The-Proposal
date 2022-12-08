@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
     float gravScale = 10;
 
     int alcoholContent = 0;
-    float bloodAlcoholLevel = 0.1f;
+    float bloodAlcoholLevel = 1f;
     bool BACincreased = false;
 
     bool collidedWithBottle = false;
@@ -46,6 +46,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("Hello");
         //cc = GetComponent<CharacterController>();
         pi = GetComponent<PlayerInput>();
         rb = GetComponent<Rigidbody>();
@@ -80,13 +81,19 @@ public class PlayerMovement : MonoBehaviour
             if (alcoholContent > 2)
             {
                 rendPP.enabled = true;
+                /*
                 if(alcoholContent % 2 == 0 && !BACincreased)
                 {
                     increaseBAC();
                 }
-
-                ca.intensity.value = bloodAlcoholLevel;
-                pp.distance.value = bloodAlcoholLevel;
+                */
+                ca.intensity.value = Mathf.Log10(alcoholContent);
+                pp.distance.value = Mathf.Log10(alcoholContent);
+                /*
+                ca.intensity.value = Mathf.Log10(bloodAlcoholLevel);
+                pp.distance.value = Mathf.Log10(bloodAlcoholLevel);
+                //Debug.Log(Mathf.Log10(bloodAlcoholLevel));
+                */
             }
         }
 
@@ -108,7 +115,7 @@ public class PlayerMovement : MonoBehaviour
         moveDir = transform.forward * moveVector.z + transform.right * moveVector.x;  
        // rb.velocity = (moveDir * velocity) + drift;
 
-        if(alcoholContent > 5)
+        if(alcoholContent >= 7)
         {
             rb.velocity = (moveDir * velocity * -1) + drift;
         }
@@ -179,7 +186,7 @@ public class PlayerMovement : MonoBehaviour
 
     void increaseBAC()
     {
-        bloodAlcoholLevel += 0.1f;
+        bloodAlcoholLevel += 1.0f;
         BACincreased = true;
     }
 
@@ -187,6 +194,7 @@ public class PlayerMovement : MonoBehaviour
     {
         collObject = alcoholObj;
         objectContent = amount;
+        Debug.Log(amount);
     }
 
     void deactivateObject(GameObject objToDeactivate)

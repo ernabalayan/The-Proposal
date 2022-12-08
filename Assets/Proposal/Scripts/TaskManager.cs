@@ -16,8 +16,8 @@ public class TaskManager : MonoBehaviour
     [SerializeField] GameObject flower;
     [SerializeField] GameObject girlfriend;
 
-    float timer = 0f;
-    float endBreakPoint = 30.0f;
+    //float timer = 0f;
+    //float endBreakPoint = 30.0f;
 
     enum playerTasks { findRing, findFlowers, findKey, findGF, endTask }
 
