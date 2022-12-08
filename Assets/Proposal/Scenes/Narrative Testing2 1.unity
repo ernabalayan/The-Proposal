@@ -271,44 +271,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &60596335
@@ -459,44 +426,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &70815920
@@ -647,44 +581,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &77401953
@@ -835,44 +736,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &145200518
@@ -1023,44 +891,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &219323970
@@ -1211,44 +1046,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &240112225
@@ -1399,44 +1201,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &323397317
@@ -1587,44 +1356,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &327381768
@@ -1775,44 +1511,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &337707657
@@ -1963,44 +1666,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &370756047
@@ -2151,44 +1821,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &376701069
@@ -2339,44 +1976,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &379491428
@@ -2527,44 +2131,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &395251964
@@ -2715,44 +2286,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &399386559
@@ -2903,44 +2441,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &408653675
@@ -3091,44 +2596,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &466606110
@@ -3279,44 +2751,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &494706763
@@ -3467,44 +2906,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &541616158
@@ -3655,44 +3061,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &587542777
@@ -3843,44 +3216,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &632263537
@@ -4031,44 +3371,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &644899275
@@ -4287,44 +3594,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &748918036
@@ -4475,44 +3749,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &769368557
@@ -4663,44 +3904,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &809946738
@@ -4851,44 +4059,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &917897441
@@ -5039,44 +4214,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &926393821
@@ -5227,44 +4369,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &962204609
@@ -5415,44 +4524,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &987138003
@@ -5603,44 +4679,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1001330569
@@ -5791,44 +4834,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1068369603
@@ -5979,44 +4989,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1146495742
@@ -6167,44 +5144,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1166501278
@@ -6355,44 +5299,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1170295400
@@ -6543,44 +5454,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1178231534
@@ -6731,44 +5609,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1198522959
@@ -6919,44 +5764,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1264985029
@@ -7107,44 +5919,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1267369175
@@ -7455,44 +6234,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1334777647
@@ -7643,44 +6389,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1349260886
@@ -7946,44 +6659,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1430855600
@@ -8134,44 +6814,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1455770249
@@ -8440,44 +7087,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1647161493
@@ -8628,44 +7242,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1665661843
@@ -8816,44 +7397,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1672333344
@@ -9004,44 +7552,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1679236625
@@ -9192,44 +7707,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1735820041
@@ -9380,44 +7862,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1738736822
@@ -9568,44 +8017,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1785849183
@@ -9756,44 +8172,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1799147076
@@ -9944,44 +8327,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1802229847
@@ -10132,44 +8482,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1817748752
@@ -10320,44 +8637,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1818111264
@@ -10508,44 +8792,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1831915560
@@ -10696,44 +8947,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1854166865
@@ -10884,44 +9102,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1951493382
@@ -11072,44 +9257,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &1981152169
@@ -11260,44 +9412,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &2039017174
@@ -11545,44 +9664,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &2078807411
@@ -11733,44 +9819,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
 --- !u!1 &2134126847
@@ -11921,43 +9974,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b088903c8c55f0242a8716001da371b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringText:
-  - Is it here
-  - What about here
-  - What about there
-  - You definitely put it here
-  - Here
-  - Check here
-  - Did you check here?
-  - Did you check there?
-  - C'mon
-  - You put it in the refrigerator, didn't you?
-  - HURRY UP
-  - WE DON'T HAVE TIME
-  - What if it's here?
-  - Over there
-  - Over here
-  - Check over here
-  - Check over there
-  - Under here
-  - There
-  - Right here
-  - Right there
-  - AAAGGGHHH
-  - WHERE IS IT
-  - WHERE DID YOU PUT IT
-  - WHERE DID WE PUT IT
-  - Fuck
-  - FUCK
-  - Shit
-  - SHIT
-  - Oh god
-  - Goddamit
-  - c'mon c'mon c'mon
-  - Did we leave the stove on?
-  - What were we doing?
-  - oh fuck
-  - oh shit
-  - hmmmmmmm
+  stringApartment:
+  - one
+  - two
+  stringPark: []
+  stringBar: []
   minMaximumTime: 0.25
   maxMaximumTime: 0.75
