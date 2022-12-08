@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
     int objectContent;
 
     Vector3 drift = Vector3.zero;
-    Vector3 driftVect = new Vector3(0.0f, 0.0f, 0.7f);
+    Vector3 driftVect = new Vector3(0.0f, 0.0f, 0.5f);
     float driftTimer;
     float changeDirection = 2.0f;
     bool setDriftVector = false;
@@ -61,17 +61,18 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if(alcoholContent > 1)
+        if (alcoholContent > 1)
         {
             //Debug.Log("drifting");
-            if(!setDriftVector)
+            if (!setDriftVector)
             {
+                Debug.Log("drifting");
                 changeDrift();
             }
 
             driftTimer -= Time.deltaTime;
 
-            while(driftTimer < 0.0f)
+            while (driftTimer < 0.0f)
             {
                 driftTimer += changeDirection;
 
@@ -97,8 +98,11 @@ public class PlayerMovement : MonoBehaviour
                 */
             }
         }
+    }
 
-        if(sprinting)
+    private void FixedUpdate()
+    {
+        if (sprinting)
         {
             velocity = sprintVelo;
         }
@@ -106,10 +110,7 @@ public class PlayerMovement : MonoBehaviour
         {
             velocity = walkVelo;
         }
-    }
 
-    private void FixedUpdate()
-    {
         rb.AddForce(Physics.gravity * (gravScale - 1) * rb.mass);
 
         //this might help with some movement stuff: https://www.youtube.com/watch?v=f473C43s8nE
@@ -118,11 +119,12 @@ public class PlayerMovement : MonoBehaviour
 
         if(alcoholContent >= 7)
         {
-            rb.velocity = (moveDir * velocity * -1) + drift;
+            rb.velocity = (moveDir + drift) * velocity * -1;
         }
         else
         {
-            rb.velocity = (moveDir * velocity) + drift;
+            //Debug.Log(drift);
+            rb.velocity = (moveDir + drift) * velocity;
         }
 
         if(isJumping && isGrounded)
