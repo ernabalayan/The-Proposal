@@ -7,6 +7,7 @@ public class DoorCollision : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI doorText;
     public bool locked = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,13 +17,17 @@ public class DoorCollision : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(!locked)
+        {
+            doorText.text = "";
+            doorText.enabled = false;
+        }
     }
     private void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.tag == "Player")
         {
-            if (locked == true)
+            if (locked)
             {
                 Debug.Log("hi");
                 doorText.enabled = true;
@@ -33,11 +38,16 @@ public class DoorCollision : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            if (locked == true)
+            if (locked)
             {
                 Debug.Log("hi");
                 doorText.enabled = false;
             }
         }
+    }
+
+    public void setLock(bool isLocked)
+    {
+        locked = isLocked;
     }
 }

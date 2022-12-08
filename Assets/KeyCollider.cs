@@ -24,6 +24,7 @@ public class KeyCollider : MonoBehaviour
         {
             Debug.Log("Touching Key");
             bathroomDoor.transform.rotation = Quaternion.Euler(0, 180, 0);
+            bathroomDoor.GetComponent<DoorCollision>().setLock(false);
         }
     }
 }
