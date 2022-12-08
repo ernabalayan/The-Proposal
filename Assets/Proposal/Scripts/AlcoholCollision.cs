@@ -18,7 +18,7 @@ public class AlcoholCollision : MonoBehaviour
         if(other.gameObject.tag == "Player")
         {
             Debug.Log("Player is colliding");
-            rend.material.color = Color.red;
+            rend.materials[0].color = Color.red;
             other.gameObject.GetComponent<PlayerMovement>().setAlcoholCollide(true);
             other.gameObject.GetComponent<PlayerMovement>().alcoholObjectColl(this.gameObject, alcoholAmount);
         }
@@ -28,7 +28,7 @@ public class AlcoholCollision : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-            rend.material.color = Color.white;
+            rend.materials[0].color = Color.white;
             other.gameObject.GetComponent<PlayerMovement>().setAlcoholCollide(false);
             other.gameObject.GetComponent<PlayerMovement>().alcoholObjectColl(null, 0);
         }
