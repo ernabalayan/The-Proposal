@@ -23,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
     bool isJumping;
     float jumpVelo = 50.0f;
     float gravScale = 10;
+    bool isGrounded;
 
     int alcoholContent = 0;
     float bloodAlcoholLevel = 1f;
@@ -124,10 +125,12 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = (moveDir * velocity) + drift;
         }
 
-        if(isJumping)
+        if(isJumping && isGrounded)
         {
+            
             rb.AddForce(Vector3.up * jumpVelo, ForceMode.Impulse);
             isJumping = false;
+            isGrounded = false;
         }
     }
 
@@ -210,5 +213,13 @@ public class PlayerMovement : MonoBehaviour
 
         objToDeactivate.SetActive(false);
         collidedWithBottle = false;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "Ground")
+        {
+            isGrounded = true;
+        }
     }
 }
