@@ -37,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
     Vector3 driftVect = new Vector3(0.0f, 0.0f, 0.5f);
     float driftTimer;
     float changeDirection = 2.0f;
+    bool dirChanged = false;
     bool setDriftVector = false;
 
     //GameObject PPvol;
@@ -63,39 +64,45 @@ public class PlayerMovement : MonoBehaviour
     {
         if (alcoholContent > 1)
         {
-            //Debug.Log("drifting");
-            if (!setDriftVector)
+            rendPP.enabled = true;
+            /*
+            if(alcoholContent % 2 == 0 && !BACincreased)
             {
-                Debug.Log("drifting");
-                changeDrift();
+                increaseBAC();
             }
-
-            driftTimer -= Time.deltaTime;
-
-            while (driftTimer < 0.0f)
-            {
-                driftTimer += changeDirection;
-
-                //Debug.Log("Changing direction");
-                drift *= -1;
-            }
+            */
+            ca.intensity.value = Mathf.Log10(alcoholContent);
+            pp.distance.value = Mathf.Log10(alcoholContent);
+            /*
+            ca.intensity.value = Mathf.Log10(bloodAlcoholLevel);
+            pp.distance.value = Mathf.Log10(bloodAlcoholLevel);
+            //Debug.Log(Mathf.Log10(bloodAlcoholLevel));
+            */
 
             if (alcoholContent > 2)
             {
-                rendPP.enabled = true;
-                /*
-                if(alcoholContent % 2 == 0 && !BACincreased)
+                //Debug.Log("drifting");
+                if (!setDriftVector)
                 {
-                    increaseBAC();
+                    //Debug.Log("drifting");
+                    changeDrift();
                 }
-                */
-                ca.intensity.value = Mathf.Log10(alcoholContent);
-                pp.distance.value = Mathf.Log10(alcoholContent);
-                /*
-                ca.intensity.value = Mathf.Log10(bloodAlcoholLevel);
-                pp.distance.value = Mathf.Log10(bloodAlcoholLevel);
-                //Debug.Log(Mathf.Log10(bloodAlcoholLevel));
-                */
+
+                driftTimer -= Time.deltaTime;
+
+                while (driftTimer < 0.0f)
+                {
+                    if(!dirChanged)
+                    {
+                        randomizeDriftTime();
+                    }
+                    driftTimer += changeDirection;
+
+                    //Debug.Log(changeDirection);
+                    //Debug.Log("Changing direction");
+                    drift *= -1;
+                    dirChanged = false;
+                }
             }
         }
     }
@@ -183,6 +190,12 @@ public class PlayerMovement : MonoBehaviour
         BACincreased = false;
     }
 
+    void randomizeDriftTime()
+    {
+        changeDirection = Random.Range(0.7f, 3.5f);
+        dirChanged = true;
+    }
+
     void changeDrift()
     {
         drift = driftVect;
@@ -199,7 +212,7 @@ public class PlayerMovement : MonoBehaviour
     {
         collObject = alcoholObj;
         objectContent = amount;
-        Debug.Log(amount);
+        //Debug.Log(amount);
     }
 
     void deactivateObject(GameObject objToDeactivate)
