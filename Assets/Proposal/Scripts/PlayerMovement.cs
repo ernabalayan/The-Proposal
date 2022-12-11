@@ -35,10 +35,14 @@ public class PlayerMovement : MonoBehaviour
 
     Vector3 drift = Vector3.zero;
     Vector3 driftVect = new Vector3(0.0f, 0.0f, 0.5f);
+    Vector3 notDrifing = Vector3.zero;
     float driftTimer;
     float changeDirection = 2.0f;
     bool dirChanged = false;
     bool setDriftVector = false;
+
+    float decreaseDrunk = 10.0f;
+    float decDrunkTimer;
 
     //GameObject PPvol;
     [SerializeField] Volume rendPP;
@@ -48,7 +52,6 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Hello");
         //cc = GetComponent<CharacterController>();
         pi = GetComponent<PlayerInput>();
         rb = GetComponent<Rigidbody>();
@@ -61,8 +64,8 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void Update()
-    {
-        if (alcoholContent > 1)
+    { 
+        if (alcoholContent >= 1)
         {
             rendPP.enabled = true;
             /*
@@ -79,13 +82,23 @@ public class PlayerMovement : MonoBehaviour
             //Debug.Log(Mathf.Log10(bloodAlcoholLevel));
             */
 
+            //Debug.Log(decDrunkTimer);
+            decDrunkTimer -= Time.deltaTime;
+
+            while(decDrunkTimer < 0.0f)
+            {
+                //Debug.Log("alcohol level decreased");
+                decDrunkTimer += decreaseDrunk;
+                alcoholContent -= 1;
+            }
+
             if (alcoholContent > 2)
             {
                 //Debug.Log("drifting");
                 if (!setDriftVector)
                 {
                     //Debug.Log("drifting");
-                    changeDrift();
+                    changeDrift(driftVect);
                 }
 
                 driftTimer -= Time.deltaTime;
@@ -104,6 +117,14 @@ public class PlayerMovement : MonoBehaviour
                     dirChanged = false;
                 }
             }
+            else
+            {
+                drift = notDrifing;
+            }
+        }
+        else
+        {
+            rendPP.enabled = false;
         }
     }
 
@@ -186,6 +207,13 @@ public class PlayerMovement : MonoBehaviour
 
     public void increaseAlcoholContent(int mod)
     {
+        if(mod != 0)
+        {
+            decDrunkTimer = decreaseDrunk;
+            setDriftVector = false;
+            //Debug.Log("alcohol level increased: " + decDrunkTimer);
+        }
+
         alcoholContent += mod;
         BACincreased = false;
     }
@@ -196,16 +224,10 @@ public class PlayerMovement : MonoBehaviour
         dirChanged = true;
     }
 
-    void changeDrift()
+    void changeDrift(Vector3 driftVal)
     {
-        drift = driftVect;
+        drift = driftVal;
         setDriftVector = true;
-    }
-
-    void increaseBAC()
-    {
-        bloodAlcoholLevel += 1.0f;
-        BACincreased = true;
     }
 
     public void alcoholObjectColl(GameObject alcoholObj, int amount = 0)
