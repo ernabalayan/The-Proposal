@@ -43,6 +43,8 @@ public class PlayerMovement : MonoBehaviour
     ChromaticAberration ca;
     PaniniProjection pp;
 
+    [SerializeField] GameObject cam;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -65,7 +67,7 @@ public class PlayerMovement : MonoBehaviour
             //Debug.Log("drifting");
             if (!setDriftVector)
             {
-                Debug.Log("drifting");
+                //Debug.Log("drifting");
                 changeDrift();
             }
 
