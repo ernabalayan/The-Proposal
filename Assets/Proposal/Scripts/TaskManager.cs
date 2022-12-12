@@ -23,9 +23,13 @@ public class TaskManager : MonoBehaviour
 
     playerTasks curtask = playerTasks.findKey;
 
+    AudioSource sound;
+    [SerializeField] AudioClip collectedSound;
+
     // Start is called before the first frame update
     void Start()
     {
+        sound = GetComponent<AudioSource>();
         taskText.text = "Current task: ";
     }
 
@@ -70,25 +74,29 @@ public class TaskManager : MonoBehaviour
 
     public void KeyWasFound()
     {
-        Debug.Log("key found");
+        //Debug.Log("key found");
+        sound.PlayOneShot(collectedSound);
         keyfound = true;
         curtask = playerTasks.findRing;
     }
 
     public void RingWasFound()
     {
-        Debug.Log("ring found");
+        sound.PlayOneShot(collectedSound);
+        //Debug.Log("ring found");
         ringFound = true;
         curtask = playerTasks.findFlowers;
     }
 
     public void FlowerWasFound()
     {
+        sound.PlayOneShot(collectedSound);
         curtask = playerTasks.findGF;
     }
 
     public void GFWasFound()
     {
+        sound.PlayOneShot(collectedSound);
         curtask = playerTasks.endTask;
     }
 }

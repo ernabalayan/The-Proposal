@@ -15,11 +15,16 @@ public class FlowerCollisions : MonoBehaviour
     [SerializeField] List<string> WrongFlowerTxt;
     int selectedText;
 
+    AudioSource sound;
+    [SerializeField] AudioClip foundTask;
+    //[SerializeField] AudioClip collectedTask;
+
     Renderer rend;
 
     // Start is called before the first frame update
     void Start()
     {
+        sound = GetComponent<AudioSource>();
         rend = GetComponent<Renderer>();
         flowerTxt.text = "";
         selectedText = Random.Range(0, WrongFlowerTxt.Count);
@@ -36,6 +41,7 @@ public class FlowerCollisions : MonoBehaviour
             switch (isCorrFlower)
             {
                 case flowerType.correctFlower:
+                    sound.PlayOneShot(foundTask);
                     flowerTxt.text = "This is perfect!";
                     other.GetComponent<PlayerMovement>().setAlcoholCollide(true);
                     other.GetComponent<PlayerMovement>().alcoholObjectColl(this.gameObject);
@@ -77,6 +83,7 @@ public class FlowerCollisions : MonoBehaviour
     {
         if (isCorrFlower == flowerType.correctFlower)
         {
+            //sound.PlayOneShot(collectedTask);
             TaskManager.GetComponent<TaskManager>().FlowerWasFound();
         }
     }
