@@ -50,6 +50,7 @@ public class PlayerMovement : MonoBehaviour
     PaniniProjection pp;
 
     [SerializeField] GameObject cam;
+    float sensAdjustment = 3.5f;
 
     // Start is called before the first frame update
     void Start()
@@ -92,6 +93,7 @@ public class PlayerMovement : MonoBehaviour
                 //Debug.Log("alcohol level decreased");
                 decDrunkTimer += decreaseDrunk;
                 alcoholContent -= 1;
+                cam.GetComponent<MouseLook>().DecreaseSens(sensAdjustment);
             }
 
             if (alcoholContent > 2)
@@ -213,6 +215,7 @@ public class PlayerMovement : MonoBehaviour
         {
             decDrunkTimer = decreaseDrunk;
             setDriftVector = false;
+            cam.GetComponent<MouseLook>().IncreaseSens(sensAdjustment);
             //Debug.Log("alcohol level increased: " + decDrunkTimer);
         }
 

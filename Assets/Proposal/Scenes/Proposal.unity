@@ -933,6 +933,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 973974116520187033, guid: 8177acaf40e564641a01b464368705c6,
         type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 527743824}
+    - target: {fileID: 973974116520187033, guid: 8177acaf40e564641a01b464368705c6,
+        type: 3}
       propertyPath: rendPP
       value: 
       objectReference: {fileID: 2087392270}
@@ -949,19 +954,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 527743823}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &527743825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 527743824}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2851ab9d9abbbe042835859a5b022885, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  volPP: {fileID: 2087392270}
 --- !u!1 &579013680
 GameObject:
   m_ObjectHideFlags: 0
