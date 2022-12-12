@@ -37,4 +37,14 @@ public class MouseLook : MonoBehaviour
     {
         return Mouse.current.delta.ReadValue();
     }
+
+    public void IncreaseSens(float incVal)
+    {
+        sens += incVal;
+    }
+
+    public void DecreaseSens(float decVal)
+    {
+        sens -= decVal;
+    }
 }

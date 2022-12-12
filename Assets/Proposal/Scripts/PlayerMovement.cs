@@ -49,6 +49,8 @@ public class PlayerMovement : MonoBehaviour
     ChromaticAberration ca;
     PaniniProjection pp;
 
+    [SerializeField] GameObject cam;
+
     // Start is called before the first frame update
     void Start()
     {
