@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class WashingMachine : MonoBehaviour
 {
-    GameObject player;
+    //GameObject player;
     AudioSource sound;
     [SerializeField] AudioClip washingMachSound;
 
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.Find("Player");
+        //player = GameObject.Find("Player");
+        sound = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -34,6 +35,6 @@ public class WashingMachine : MonoBehaviour
 
     public void playWashingMachineSound()
     {
-        sound.Play();
+        sound.PlayOneShot(washingMachSound);
     }
 }
