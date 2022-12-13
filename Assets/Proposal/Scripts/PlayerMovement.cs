@@ -9,7 +9,6 @@ public class PlayerMovement : MonoBehaviour
 {
     public Vector3 moveVector;
     float velocity = 3.0f;
-    //CharacterController cc;
     PlayerInput pi;
     Rigidbody rb;
 
@@ -18,7 +17,6 @@ public class PlayerMovement : MonoBehaviour
     const float walkVelo = 3.0f;
 
     Vector3 moveDir;
-    //Vector3 driftDir;
 
     bool isJumping;
     float jumpVelo = 50.0f;
@@ -26,9 +24,9 @@ public class PlayerMovement : MonoBehaviour
     bool isGrounded;
 
     int alcoholContent = 0;
-    float bloodAlcoholLevel = 1f;
-    bool BACincreased = false;
 
+    bool collidedWithWashing = false;
+    GameObject machine;
     bool collidedWithBottle = false;
     GameObject collObject;
     int objectContent;
@@ -44,7 +42,6 @@ public class PlayerMovement : MonoBehaviour
     float decreaseDrunk = 10.0f;
     float decDrunkTimer;
 
-    //GameObject PPvol;
     [SerializeField] Volume rendPP;
     ChromaticAberration ca;
     PaniniProjection pp;
@@ -52,18 +49,20 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] GameObject cam;
     float sensAdjustment = 3.5f;
 
+    AudioSource sounds;
+    [SerializeField] AudioClip drink;
+
     // Start is called before the first frame update
     void Start()
     {
-        //cc = GetComponent<CharacterController>();
         pi = GetComponent<PlayerInput>();
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
-        //rendPP = GetComponent<Volume>();
         rendPP.profile.TryGet(out ca);
         rendPP.profile.TryGet(out pp);
         ca.intensity.value = 0.0f;
         rendPP.enabled = false;
+        sounds = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -71,19 +70,9 @@ public class PlayerMovement : MonoBehaviour
         if (alcoholContent >= 1)
         {
             rendPP.enabled = true;
-            /*
-            if(alcoholContent % 2 == 0 && !BACincreased)
-            {
-                increaseBAC();
-            }
-            */
+
             ca.intensity.value = Mathf.Log10(alcoholContent);
             pp.distance.value = Mathf.Log10(alcoholContent);
-            /*
-            ca.intensity.value = Mathf.Log10(bloodAlcoholLevel);
-            pp.distance.value = Mathf.Log10(bloodAlcoholLevel);
-            //Debug.Log(Mathf.Log10(bloodAlcoholLevel));
-            */
 
             //Debug.Log(decDrunkTimer);
             decDrunkTimer -= Time.deltaTime;
@@ -147,7 +136,6 @@ public class PlayerMovement : MonoBehaviour
 
         //this might help with some movement stuff: https://www.youtube.com/watch?v=f473C43s8nE
         moveDir = transform.forward * moveVector.z + transform.right * moveVector.x;  
-       // rb.velocity = (moveDir * velocity) + drift;
 
         if(alcoholContent >= 7)
         {
@@ -188,6 +176,10 @@ public class PlayerMovement : MonoBehaviour
             collObject = null;
             objectContent = 0;
         }
+        else if(collidedWithWashing)
+        {
+            MachineSound();
+        }
     }
 
     //this only causes the player to sprint when the button is pressed, not held
@@ -209,10 +201,16 @@ public class PlayerMovement : MonoBehaviour
         collidedWithBottle = collision;
     }
 
+    public void setMachineCollide(bool coll)
+    {
+        collidedWithWashing = coll;
+    }
+
     public void increaseAlcoholContent(int mod)
     {
         if(mod != 0)
         {
+            sounds.PlayOneShot(drink);
             decDrunkTimer = decreaseDrunk;
             setDriftVector = false;
             cam.GetComponent<MouseLook>().IncreaseSens(sensAdjustment);
@@ -220,7 +218,11 @@ public class PlayerMovement : MonoBehaviour
         }
 
         alcoholContent += mod;
-        BACincreased = false;
+    }
+
+    void MachineSound()
+    {
+        machine.GetComponent<WashingMachine>().playWashingMachineSound();
     }
 
     void randomizeDriftTime()
@@ -240,6 +242,11 @@ public class PlayerMovement : MonoBehaviour
         collObject = alcoholObj;
         objectContent = amount;
         //Debug.Log(amount);
+    }
+
+    public void machineObjColl(GameObject machineObj)
+    {
+        machine = machineObj;
     }
 
     void deactivateObject(GameObject objToDeactivate)
