@@ -59,6 +59,9 @@ public class TaskManager : MonoBehaviour
             case playerTasks.endTask:
                 taskText.text = "All tasks complete!";
                 StartCoroutine(EndGame());
+                girlfriend.SetActive(true);
+                girlfriend.GetComponent<CapsuleCollider>().enabled = false;
+                girlfriend.GetComponent<Renderer>().material.color = Color.gray;
                 break;
         }
 

@@ -13,8 +13,8 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody rb;
 
     bool sprinting = false;
-    const float sprintVelo = 7.0f;
-    const float walkVelo = 3.0f;
+    const float sprintVelo = 12.0f;
+    const float walkVelo = 5.0f;
 
     Vector3 moveDir;
 
