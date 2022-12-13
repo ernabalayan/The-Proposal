@@ -17,8 +17,9 @@ public class AmbientNoice : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(isTraffic && other.gameObject.tag == "Player")
+        if (isTraffic && other.gameObject.tag == "Player")
         {
+            Debug.Log("player trigger");
             am.switchToTraffic();
             sound.Play();
 

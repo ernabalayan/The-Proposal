@@ -5,10 +5,16 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     [SerializeField] GameObject trafficSounds;
+    [SerializeField] GameObject otherTraffic;
     [SerializeField] GameObject talkingSounds;
 
     enum ambientSound { none, traffic, talking};
     ambientSound ambient = ambientSound.none;
+
+    private void Start()
+    {
+        otherTraffic.GetComponent<AudioSource>().enabled = false;
+    }
 
     // Update is called once per frame
     void Update()
@@ -16,16 +22,16 @@ public class AudioManager : MonoBehaviour
         switch(ambient)
         {
             case ambientSound.none:
-                trafficSounds.SetActive(false);
-                talkingSounds.SetActive(false);
+                trafficSounds.GetComponent<AudioSource>().enabled = false;
+                talkingSounds.GetComponent<AudioSource>().enabled = false;
                 break;
             case ambientSound.traffic:
-                trafficSounds.SetActive(true);
-                talkingSounds.SetActive(false);
+                trafficSounds.GetComponent<AudioSource>().enabled = true;
+                talkingSounds.GetComponent<AudioSource>().enabled = false;
                 break;
             case ambientSound.talking:
-                trafficSounds.SetActive(false);
-                talkingSounds.SetActive(true);
+                trafficSounds.GetComponent<AudioSource>().enabled = false;
+                talkingSounds.GetComponent<AudioSource>().enabled = true;
                 break;
         }
     }

@@ -58,6 +58,7 @@ public class TaskManager : MonoBehaviour
                 break;
             case playerTasks.endTask:
                 taskText.text = "All tasks complete!";
+                StartCoroutine(EndGame());
                 break;
         }
 
@@ -98,5 +99,12 @@ public class TaskManager : MonoBehaviour
     {
         sound.PlayOneShot(collectedSound);
         curtask = playerTasks.endTask;
+    }
+
+    IEnumerator EndGame()
+    {
+        yield return new WaitForSeconds(3.0f);
+        //Debug.Log("game is over");
+        Application.Quit();
     }
 }
