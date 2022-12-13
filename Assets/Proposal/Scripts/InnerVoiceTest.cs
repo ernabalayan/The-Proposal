@@ -25,7 +25,7 @@ public class InnerVoiceTest : MonoBehaviour
     bool inPark = false;
     bool inBar = false;
 
-    string[] stringApartment = new string[] {"one", "two", "three"};
+    public string[] stringApartment;
     public string[] stringPark;
     public string[] stringBar;
 
@@ -90,7 +90,7 @@ public class InnerVoiceTest : MonoBehaviour
     void Update()
     {
 
-        //alcohol = player.GetComponent<PlayerMovement>().getAlcoholLevel();
+        alcohol = player.GetComponent<PlayerMovement>().getAlcoholLevel();
 
         if(inApartment)
         {
