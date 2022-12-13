@@ -61,6 +61,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        Debug.Log("alcohol level is " + alcoholContent);
         if (alcoholContent > 1)
         {
             //Debug.Log("drifting");
