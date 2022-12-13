@@ -23,6 +23,8 @@ public class TaskManager : MonoBehaviour
 
     playerTasks curtask = playerTasks.findKey;
 
+    public int taskNum = 1;
+
     AudioSource sound;
     [SerializeField] AudioClip collectedSound;
 
@@ -40,23 +42,28 @@ public class TaskManager : MonoBehaviour
         {
             case playerTasks.findKey:
                 taskText.text = "Current task: Find Key";
+                taskNum = 1;
                 ring.GetComponent<CapsuleCollider>().enabled = false;
                 flower.GetComponent<BoxCollider>().enabled = false;
                 girlfriend.GetComponent<CapsuleCollider>().enabled = false;
                 break;
             case playerTasks.findRing:
                 taskText.text = "Current task: Find Ring";
+                taskNum = 1;
                 ring.GetComponent<CapsuleCollider>().enabled = true;
                 break;
             case playerTasks.findFlowers:
                 taskText.text = "Current task: Find Flowers";
+                taskNum = 2;
                 flower.GetComponent<BoxCollider>().enabled = true;
                 break;
             case playerTasks.findGF:
                 taskText.text = "Current task: Find your Girlfriend";
+                taskNum = 3;
                 girlfriend.GetComponent<CapsuleCollider>().enabled = true;
                 break;
             case playerTasks.endTask:
+                taskNum = 0;
                 taskText.text = "All tasks complete!";
                 break;
         }
