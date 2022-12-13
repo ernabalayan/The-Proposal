@@ -17,7 +17,7 @@ public class AlcoholCollision : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-            Debug.Log("Player is colliding");
+            //Debug.Log("Player is colliding");
             rend.materials[0].color = Color.red;
             other.gameObject.GetComponent<PlayerMovement>().setAlcoholCollide(true);
             other.gameObject.GetComponent<PlayerMovement>().alcoholObjectColl(this.gameObject, alcoholAmount);

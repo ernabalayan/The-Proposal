@@ -222,7 +222,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveVector: {x: 0, y: 0, z: 0}
-  rendPP: {fileID: 0}
+  rendPP: {fileID: 7338573082072020806, guid: 354d1056fadd5f9409f7c8fe900117d5, type: 3}
+  cam: {fileID: 973974114755288282}
 --- !u!114 &973974116520187032
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -29,7 +29,7 @@ public class DoorCollision : MonoBehaviour
         {
             if (locked)
             {
-                Debug.Log("hi");
+                //Debug.Log("hi");
                 doorText.enabled = true;
             }
         }
@@ -40,7 +40,7 @@ public class DoorCollision : MonoBehaviour
         {
             if (locked)
             {
-                Debug.Log("hi");
+                //Debug.Log("hi");
                 doorText.enabled = false;
             }
         }

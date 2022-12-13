@@ -7,7 +7,7 @@ public class MouseLook : MonoBehaviour
 {
     [SerializeField] Transform playerTransf;
 
-    float sens = 40f;
+    float sens = 30f;
     float xRotation = 0f;
     float yRotation = 0f;
 
@@ -36,5 +36,15 @@ public class MouseLook : MonoBehaviour
     public Vector2 GetLook()
     {
         return Mouse.current.delta.ReadValue();
+    }
+
+    public void IncreaseSens(float incVal)
+    {
+        sens += incVal;
+    }
+
+    public void DecreaseSens(float decVal)
+    {
+        sens -= decVal;
     }
 }
