@@ -165,6 +165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alcoholAmount: 1
+  nearby: {fileID: 8300000, guid: c9f0ff7d323705a4ab68ec52d8001f01, type: 3}
 --- !u!23 &8088931824427050036
 MeshRenderer:
   m_ObjectHideFlags: 0

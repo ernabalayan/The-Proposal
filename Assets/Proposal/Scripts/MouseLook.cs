@@ -15,7 +15,6 @@ public class MouseLook : MonoBehaviour
     void Start()
     {
         yRotation = playerTransf.eulerAngles.y;
-        //Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
 
